@@ -16,11 +16,7 @@ Sistema completo para análise de performance de fundos de investimento em compa
 ```
 testecdi/
 ├── cvm.py                    # Análise principal - dados CVM vs CDI
-├── aurora_corrigido.py       # Análise do fundo Aurora (composição de 5 fundos)
-├── demo_raptor.py           # Demonstração com dados simulados
 ├── teste_cvm.py             # Testes de download da CVM
-├── grafico_simples.py       # Gráficos básicos
-├── forcar_grafico.py        # Gráficos com múltiplos backends
 ├── cdi                      # Análise detalhada de fundos com CDI real
 └── README.md                # Este arquivo
 ```
