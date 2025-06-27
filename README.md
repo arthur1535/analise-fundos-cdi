@@ -33,11 +33,7 @@ pip install pandas numpy matplotlib requests openpyxl
 python cvm.py
 ```
 
-### 3. Análise do Fundo Aurora
 
-```bash
-python aurora_corrigido.py
-```
 
 ## 📈 Principais Análises
 
