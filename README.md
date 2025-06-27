@@ -7,8 +7,6 @@ Sistema completo para análise de performance de fundos de investimento em compa
 - **Download automático** de dados da CVM
 - **Análise de performance** de fundos vs CDI
 - **Gráficos comparativos** interativos
-- **Métricas de risco** (VaR, Sharpe, Volatilidade)
-- **Cálculo de taxas** (administração e performance)
 - **Dados reais** da Taxa Selic do Banco Central
 
 ## 📁 Estrutura do Projeto
@@ -49,13 +47,6 @@ python aurora_corrigido.py
 - Gráfico de performance acumulada
 - Métricas de risco e rentabilidade
 
-### 2. Análise do Fundo Aurora (aurora_corrigido.py)
-- Composição: 18% cada um de 5 fundos + 10% CDI
-- Cálculo de taxas de administração e performance
-- VaR (Value at Risk) corrigido
-- Índice de Sharpe anualizado
-- Relatórios para investidor e gestora
-
 ## 🔧 Configuração
 
 ### Alterar CNPJ do Fundo
@@ -71,15 +62,6 @@ data_inicio = dt.date(2025, 3, 1)
 data_fim = dt.date(2025, 6, 11)
 ```
 
-## 📊 Métricas Calculadas
-
-- **Rentabilidade Acumulada**: Performance do fundo no período
-- **Comparação com CDI**: Diferença vs benchmark
-- **VaR (95%)**: Value at Risk diário
-- **Volatilidade**: Mensal e anualizada
-- **Índice de Sharpe**: Ajustado ao risco
-- **Taxas**: Administração e performance
-
 ## 🔍 Fontes de Dados
 
 - **CVM**: Dados oficiais de cotas de fundos
@@ -91,7 +73,7 @@ data_fim = dt.date(2025, 6, 11)
 - Python 3.7+
 - Conexão com internet (para download da CVM)
 - Arquivo CSV da Selic: `D:/user/taxa_selic_apurada.csv`
-- Arquivo Excel de cotas: `D:/user/cotas1749772276365.xlsx`
+
 
 ## 🎨 Gráficos Gerados
 
